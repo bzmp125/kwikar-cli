@@ -1,6 +1,6 @@
 {
   "name": "kwikar",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "CLi to get started 'quicker' when building microservices by offering ready-to-deploy & configurable project templates.",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,13 @@
   "preferGlobal": true,
   "bin": {
     "kwikar": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bzmp125/messaging-service"
+  },
+  "bugs": {
+    "url": "https://github.com/bzmp125/messaging-service/issues"
   },
   "entry_point": "./index.js",
   "dependencies": {
